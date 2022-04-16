@@ -7,7 +7,7 @@ const {
     createNewNote, 
     validateNote, 
 } = require("../../lib/notes");
-const { notes } = require("../../db/db");
+const { notes } = require("../../db/db.json");
 
 
 
