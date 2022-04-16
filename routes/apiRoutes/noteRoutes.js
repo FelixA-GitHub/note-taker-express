@@ -1,9 +1,14 @@
-//dependencies
-const { filterByQuery, findById, createNewNote, validateNote, } = require("../../lib/notes");
-const { notes } = require("../../db/notes");
-
 //starts instance for Router
 const router = require('express').Router();
+//dependencies
+const { 
+    filterByQuery, 
+    findById, 
+    createNewNote, 
+    validateNote, 
+} = require("../../lib/notes");
+const { notes } = require("../../db/db");
+
 
 
 //route that the front end can request data from
@@ -38,7 +43,7 @@ router.post('/notes', (req, res) => {
   if (!validateNote(req.body)) {
     res.status(400).send('The note is not properly formatted.');
   } else {
-    const note = createNewAnimal(req.body, notes);
+    const note = createNewNote(req.body, notes);
     res.json(note);
   }
 });
