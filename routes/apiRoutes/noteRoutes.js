@@ -1,11 +1,6 @@
 //dependencies
-const { 
-  filterByQuery, 
-  findById, 
-  createNewNote, 
-  validateNote, 
-} = require("../../lib/notes");
-const { notes } = require("../../db/db.json");
+const { filterByQuery, findById, createNewNote, validateNote, } = require("../../lib/notes");
+const notes = require("../../db/db.json");
 
 //starts instance for Router
 const router = require('express').Router();
@@ -36,8 +31,8 @@ router.get('/notes/:id', (req, res) => {
 //this will go to the request we just created, instead of callback function
 router.post('/notes', (req, res) => {
   // set id based on what the next index of the array will be
-  console.log(notes);
-  req.body.id = notes.length.toString();
+  console.log(req.body);
+  req.body.id = notes.length;
 
   // if any data in req.body is incorrect, send 400 error back
   if (!validateNote(req.body)) {
