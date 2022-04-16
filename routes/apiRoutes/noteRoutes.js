@@ -10,7 +10,6 @@ const {
 const { notes } = require("../../db/db.json");
 
 
-
 //route that the front end can request data from
 //first argument is string that describes the route the client will fetch from
 //second is a callback function that will execute every time that route is accessed with a GET request
