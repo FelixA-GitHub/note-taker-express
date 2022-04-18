@@ -5,11 +5,6 @@
     "id": ""
   },
   {
-    "title": "uu",
-    "text": "id",
-    "id": 1
-  },
-  {
     "title": "chewy",
     "text": "candy",
     "id": 2
@@ -20,48 +15,8 @@
     "id": 3
   },
   {
-    "title": "until",
-    "text": "now",
-    "id": 4
-  },
-  {
-    "title": "add",
-    "text": "more",
-    "id": 5
-  },
-  {
-    "title": "another",
-    "text": "test",
-    "id": 6
-  },
-  {
-    "title": "still",
-    "text": "good",
-    "id": 7
-  },
-  {
-    "title": "JEllo",
-    "text": "pudding!",
-    "id": 8
-  },
-  {
-    "title": "ho",
-    "text": "mel",
-    "id": 9
-  },
-  {
     "title": "yo",
-    "text": "main",
-    "id": 10
-  },
-  {
-    "title": "try",
-    "text": "to delete",
-    "id": 11
-  },
-  {
-    "title": "l",
-    "text": "o",
-    "id": 12
+    "text": "ho",
+    "id": 3
   }
 ]
