@@ -28,6 +28,14 @@ router.get('/notes/:id', (req, res) => {
   }
 });
 
+//Bonus **DELETE**
+router.delete('/notes/:id', (req, res) => {
+  const noteId = notes.findIndex(val => val.id === Number(req.params.id));
+  notes.splice(noteId, 1);
+  return res.json({ message: "Deleted" });
+});
+
+
 //this will go to the request we just created, instead of callback function
 router.post('/notes', (req, res) => {
   // set id based on what the next index of the array will be
