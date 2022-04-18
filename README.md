@@ -2,8 +2,8 @@
  
 # Table of Contents
 * [Description](#description)
-* [Installation](#dependencies)
-* [Acceptance Criteria](#criteria)
+* [Installation](#installation)
+* [Criteria](#criteria)
 * [Questions](#questions)
 
 
@@ -17,13 +17,13 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ## Installation:
 
 ``  Express.js
-    Node.js
-    FS.js
-    Path.js
-    Heroku
+    \nNode.js
+    \nFS.js
+    \nPath.js
+    \nHeroku
 ``
 
-## Acceptance Criteria:
+## Criteria:
 
 ``  GIVEN a note-taking application
 WHEN I open the Note Taker
