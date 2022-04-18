@@ -16,12 +16,12 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ## Installation:
 
-``  Express.js
-    \nNode.js
-    \nFS.js
-    \nPath.js
-    \nHeroku
-``
+`` Express.js ``
+`` Node.js ``
+`` FS.js ``
+`` Path.js ``
+`` Heroku ``
+
 
 ## Criteria:
 
